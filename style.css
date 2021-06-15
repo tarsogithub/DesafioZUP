@@ -1,0 +1,39 @@
+body {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "EuclidBold";
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    180deg,
+    #020247 5%,
+    #050b42 20%,
+    #6671d3 35%,
+    #ceb369 60%,
+    #e798e7 95%
+  );
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+img {
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+section {
+  margin: 15px;
+  background-color: #2b2a2a;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
